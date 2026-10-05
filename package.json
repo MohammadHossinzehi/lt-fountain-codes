@@ -1,0 +1,16 @@
+{
+  "name": "lt-fountain-codes",
+  "version": "1.0.0",
+  "description": "LT fountain codes from scratch: robust soliton degrees, peeling and exact GF(2) decoding, self describing packets. Zero dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "ltfc": "bin/ltfc.js" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node bin/ltfc.js demo",
+    "simulate": "node bin/ltfc.js simulate"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["fountain-code", "lt-code", "erasure-code", "rateless", "gf2", "soliton"],
+  "license": "MIT"
+}
